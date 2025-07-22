@@ -9,6 +9,6 @@ public class Main {
         BankingApp bankingApp1 = new BankingApp();
         bankingApp1.createBankAccount(customer1);
 //        bankingApp1.addCustomer(customer1.getName(), customer1.getEmail(), customer1.getPhone());
-//        bankingApp1.depositMoney(customer1, 20500);
+        bankingApp1.depositMoney(customer1, 20500);
     }
 }

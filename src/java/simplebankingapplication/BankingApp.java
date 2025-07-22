@@ -35,15 +35,15 @@ public class BankingApp {
 
     }
 
-    public void depositMoney(Account account, double amount) throws SQLException {
-
-        String sql = "insert into account(balance) values (?)";
-        PreparedStatement statement = connection.prepareStatement(sql);
-        statement.setDouble(1, account.getBalance() + amount);
-        System.out.println(statement);
-        statement.executeUpdate();
-
-    }
+//    public void depositMoney(Account account, double amount) throws SQLException {
+//
+//        String sql = "insert into account(balance) values (?)";
+//        PreparedStatement statement = connection.prepareStatement(sql);
+//        statement.setDouble(1, account.getBalance() + amount);
+//        System.out.println(statement);
+//        statement.executeUpdate();
+//
+//    }
 
 
 }
